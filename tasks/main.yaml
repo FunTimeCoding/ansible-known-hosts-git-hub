@@ -1,1 +1,5 @@
 ---
+- known_hosts:
+    name: github.com
+    key: "{{ lookup('file', role_path ~ '/files/github.com-22-ssh-rsa.pub.txt') }}"
+    hash_host: yes
