@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+    - ansible-known-hosts-git-hub
