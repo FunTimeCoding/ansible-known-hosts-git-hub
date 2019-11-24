@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   roles:
-    - ansible-known-hosts-git-hub
+  - ansible-known-hosts-git-hub
